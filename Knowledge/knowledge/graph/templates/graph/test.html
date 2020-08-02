@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+
+<h1>这是一个标题</h1>
+<script>
+    var data = JSON.parse('{{ data|safe }}')
+    window.alert(data)
+</script>
+</body>
+</html>
